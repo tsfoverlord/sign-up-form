@@ -29,15 +29,16 @@
                                 <ul>
                                     <li>
                                         <label for="first-name">FIRST NAME</label>
-                                        <input type="text" name="firstName" id="first-name">
+                                        <input type="text" name="firstName" id="first-name" required>
                                     </li>
                                     <li>
                                         <label for="email">E-MAIL</label>
-                                        <input type="email" name="email" id="email">
+                                        <input type="email" name="email" id="email" required>
                                     </li>
                                     <li>
                                         <label for="password">PASSWORD</label>
-                                        <input type="password" name="password" id="password" class="error">
+                                        <input type="password" name="password" id="password" required>
+                                        <span class="error" aria-live="polite"></span>
                                     </li>
                                 </ul>
                             </div>
@@ -53,7 +54,7 @@
                                     </li>
                                     <li>
                                         <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                                        <input type="password" name="confirm-pwd" id="confirm-pwd" class="error">
+                                        <input type="password" name="confirm-pwd" id="confirm-pwd" required>
                                     </li>
                                 </ul>
                             </div>
@@ -67,4 +68,6 @@
         </div>
     </div>
 </body>
+<script src="validator.js"></script>
+
 </html>
