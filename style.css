@@ -205,6 +205,15 @@ span.error {
     color: red;
 }
 
+.left p {
+    position: relative;
+    top: 460px;
+    text-align: center;
+    color: beige;
+    font-size: 10px;
+}
 
+.left p a{
+    color: beige;
 
-
+}
