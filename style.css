@@ -1,0 +1,205 @@
+/* Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Styling */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url("./assets/Norse-Bold.otf") format("opentype");
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAFB;
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.left {
+    background-image: url('assets/halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: 400px ;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px 0px;
+}
+
+.logo img {
+    width: 60px;
+    height: 70px;
+}
+
+.logo h1 {
+    font-family:'Norse-Bold' ;
+    font-size: 64px;
+    color: white;
+}
+
+.right {
+    /* width: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 70px 0px;
+    background-color: #F9FAFB;
+}
+
+.info {
+    margin-left: 32px;
+}
+
+.info p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: large;
+    line-height: 1.2em;
+    word-wrap: break-word;
+}
+
+.info p:last-child {
+    margin-top:1em;
+}
+
+
+
+.form-card h1 {
+    margin: 8px 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.form-body {
+    display: flex;
+    gap: 64px;
+}
+
+.form-body-left {
+    margin-left:32px;
+
+}
+
+form input{
+    display: block;
+    border: 1px solid #E5E7EB;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+input:focus {
+    outline: 1px solid #4A6FD6;
+    box-shadow: 2px 2px 3px;
+} 
+
+input[type="submit"] {
+    margin:20px 32px;
+    color: white;
+    background-color: #596D48;
+    padding: 8px 32px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+p span {
+    font-style: italic;
+}
+
+.form-card {
+    background-color: white;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+}
+
+
+
+
+.form-container p{
+    font-family: "Roboto", sans-serif;
+    font-size: small;
+    margin-left: 32px;
+}
+
+.form-container p a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 700;
+}
+
+form label{
+    font-size: 10px;
+    letter-spacing: .1em;
+}
+ul li{
+    padding: 10px 0px;
+}
+
+
+
+
+
